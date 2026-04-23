@@ -1,0 +1,33 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.packages.pub-cache
+.pub-cache/
+.buildlog/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins
+.flutter-plugins-dependencies
+generated_plugin_registrant.dart
+
+# Build outputs
+build/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/Runner.xcworkspace/
+android/.gradle/
+android/app/build/
+
+# IntelliJ / VS Code
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Misc
+pubspec.lock
