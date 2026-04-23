@@ -1,11 +1,8 @@
 # Flutter/Dart
 .dart_tool/
 .packages
-.packages.pub-cache
 .pub-cache/
 .buildlog/
-.flutter-plugins
-.flutter-plugins-dependencies
 .flutter-plugins
 .flutter-plugins-dependencies
 generated_plugin_registrant.dart
@@ -16,8 +13,13 @@ ios/Flutter/Flutter.framework
 ios/Flutter/Flutter.podspec
 ios/Pods/
 ios/Runner.xcworkspace/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
 android/.gradle/
 android/app/build/
+
+# Local configuration
+local.properties
 
 # IntelliJ / VS Code
 *.iml
@@ -30,4 +32,4 @@ android/app/build/
 .DS_Store
 
 # Misc
-pubspec.lock
+# Do not ignore pubspec.lock for application projects
